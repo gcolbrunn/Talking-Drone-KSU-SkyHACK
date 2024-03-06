@@ -16,12 +16,13 @@ import pyttsx3
 engine = pyttsx3.init()
 
 # Speak the initial message
-initial_message = "Hello, I am rubble-buster. How can I help you today?"
+initial_message = "Hello, I am a lifesaving drone. How can I help you today?"
 engine.say(initial_message)
 engine.runAndWait()
 
 # Set up the OpenAI API key
-openai.api_key = "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"
+# Replace "my-API-key" with an OpenAI Key
+openai.api_key = "my-API-key"
 
 # Initialize the speech recognizer
 r = sr.Recognizer()
